@@ -1,32 +1,38 @@
 .nav a {
     width: 150px;
-      background-color: #2d2e2d; 
-      border: 2px solid #2d2e2d;
-      margin: 0px;
-  
-      color: rgba(255, 255, 255, 0.977);
-      padding: 7px 16px;
-      text-align: center;
-      display: inline-block;
-      font-size: 16px;
-      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-      
+    /* background-color: #2d2e2d;  */
+    /* transparant: 0.9; */
+
+    /* border: 2px solid #2d2e2d; */
+    margin: 20px;
+
+    color: rgba(255, 255, 255, 0.977);
+    padding: 16px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+      /* font-family:cyberpunk; */
     }
   
   .nav a:hover {
-      background-color: #0d0d0d;
+      /* background-color: #0d0d0d; */
+      backdrop-filter: blur(3px);
   }
   .nav a:active{
-    background-color: #cc80d9;
+    /* background-color: #cc80d9;
+     */
+    background-blend-mode: lighten;
   }
   
   .nav {
-      background-color: #2d2e2d;
+      /* background-color: #2d2e2d; */
+      transparant: 0.9;
       color: #ffffff;
       padding: 0px;
       font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       display: flex;
       flex-direction: row;
-      gap: 0px;
+      gap: 10px;
       justify-content: center;
   }
