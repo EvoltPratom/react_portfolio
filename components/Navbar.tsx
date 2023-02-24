@@ -1,12 +1,14 @@
 import styles from "../styles/Navbar.module.css";
 
-export default function Navbar() {
+type NavbarProps = {
+    children: React.ReactNode;
+  }
+
+export default function Navbar(props: NavbarProps) {
   return (
     <nav className={styles.nav}>
-      <button>Home</button>
-      <button>About</button>
-      <button>Projects</button>
-      <button>Contact</button>
+        {props.children}
     </nav>
   );
 }
+

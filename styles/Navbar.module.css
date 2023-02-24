@@ -1,4 +1,4 @@
-.nav button {
+.nav a {
     width: 150px;
       background-color: #2d2e2d; 
       border: 2px solid #2d2e2d;
@@ -13,10 +13,10 @@
       
     }
   
-  .nav button:hover {
+  .nav a:hover {
       background-color: #0d0d0d;
   }
-  .nav button:active{
+  .nav a:active{
     background-color: #cc80d9;
   }
   
